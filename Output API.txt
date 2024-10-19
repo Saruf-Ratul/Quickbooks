@@ -1,0 +1,202 @@
+POST /oauth2/v1/tokens/bearer?grant_type
+    =authorization_code&code
+    =AB11729337439xHZXOwko7FIDF7G7idtZ1QLF09IeTr7f5Ry5
+    s&redirect_uri=https://developer.intuit.com/v2
+    /OAuth2Playground/RedirectUrl
+Content-Type: application/x-www-form-urlencoded
+Accept: application/json
+Authorization: Basic 
+    QUJOWWlQMm5uYUtLalJDZVoyd2hDNGVLVTEzeHpmV2RpdGdrMn
+    pKN0R4SDBuOHlqZ0U6OG1INDNCTEk2M0VRTFBsVjRPSkVyUHF6
+    aWh1bnVmeXVRUkFLY0JBYw==
+
+
+
+Status: 200
+Connection: keep-alive
+Keep-Alive: timeout=5
+Strict-Transport-Security: max-age=15552000
+Cache-Control: no-cache, no-store
+Content-Type: application/json;charset=utf-8
+Server: nginx
+{
+ "refreshToken": 
+   "AB117380635856DkwvztQKYnmdTnLhQfsVPm0yxJvHQVNMn4S
+   e",
+ "accessToken": 
+   "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0
+   ..oBPztzsoWF7hzAsWoX8cUA
+   .liFZ7HyhzLCpkxRpJx0W3WA6_9UR3gK64ONu3cpj_fiA_zCD9
+   eQmi7nyRkGLiUn6c0nMLs3fHxiA24sLXiKIKOHGupZy0SDhVim
+   b0BodEjIU6S1hiCVZ5O8RwSHbHK7mI0qqJjrIVhoDqHTgxjEE7
+   AgeJq02sRH5qf8AMUbesTN_BOzgnQPyC5zEFiYiqp2cdUi7m9q
+   qBsg3qEa7dwuCurMDL86CQdG61YIFRApanpkEXKYvuBVUpp2Np
+   FobRya2MII7Lpv4XRdzXXe9HdtuAi5udoLa2Ovdl8FLxu6fX_f
+   Mh_3-zrmh8Cni8GYS8PN6FYI6UXz
+   -SknGVJoZdwtPAvQwzyHqNNvrE4SUccTgeW2TdVM0BclcxXtQp
+   sHkO-L3dhCowJ0IR-77PEQNkE9c9IqATci
+   -jwVFfxZu488WCO2KjgBKdbkq4ZkeNt3nO
+   -qPLw6JMLPw0NuOVoGfaMJfU0waDnNawhyUwSa8bMQBhn_Oon_
+   arLSkUOapN6zE7SvN9FWd0PWOkdmCb7gg_qS2K8XBrhQkyR0Jm
+   ynT3soAL0dM4xl5Kl
+   -48VdAmPInVSuT3xdz6IOa8l9ZjzuBd6Z2LzZiSN_P-lE1
+   -eA7Ee6aaQ6vVmPrlnrm6sGQElmc5bsIa6yTxKFivx20uFeKh5
+   KZUkM7k-o95xwLT5zwrSwh5jmfw-RDamLE38dmvdeM_NKHYHNv
+   -y2MKmcdRieiCTgfc4AVKLpuUL0ITyEoMz39AoIxLc4gZax2jg
+   WdQJ0Q-nyKWqf6V72YFUZbYZD51If5kbjXMJbzVYprMp0MSbeZ
+   K000xNihcoefSaeOXD61PhkbCxGyer39sdtw2XJli0SzqFdCzo
+   T_jZ4ykoUud6eDyqX8l2XGMUNZmZ3zU5UmPqiN
+   .20ICUPWFtV9xdORofrJfNQ",
+ "expires_in": 3600,
+ "x_refresh_token_expires_in": 8726400,
+ "idToken": "eyJraWQiOiJPUElDUFJEMDkxODIwMTQiLCJhbGci
+   OiJSUzI1NiJ9
+   .eyJzdWIiOiIxZThhNmY5ZS0yNmRiLTMxOWMtODU5Yy00OGJlZ
+   Dc0OTg2ODkiLCJhdWQiOlsiQUJOWWlQMm5uYUtLalJDZVoyd2h
+   DNGVLVTEzeHpmV2RpdGdrMnpKN0R4SDBuOHlqZ0UiXSwicmVhb
+   G1pZCI6IjkzNDE0NTMzMjA1NjE2MzIiLCJhdXRoX3RpbWUiOjE
+   3MjkzMzE0MzYsImlzcyI6Imh0dHBzOlwvXC9vYXV0aC5wbGF0Z
+   m9ybS5pbnR1aXQuY29tXC9vcFwvdjEiLCJleHAiOjE3MjkzNDA
+   3ODQsImlhdCI6MTcyOTMzNzE4NH0
+   .p6zYm95xoUcToxJaNKAESlfa0fSf7DTWN53FZQg3YGnjyTAck
+   jlMMVTKmBAW0BSrNmsnfBuX
+   -2UL8i5UAKDIV4r69JwHPSWVBfzx9akcfKb7DHinEjguFWnuUz
+   OiIdm4E1s6T-Rh0F6Q2nEzUCDetUR1qPqbH1-mxd0aBjEkqWU"
+}
+
+
+GET /v3/company/9341453320561632/companyinfo
+    /9341453320561632
+Accept: application/json
+Authorization: Bearer 
+    eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0
+    ..oBPztzsoWF7hzAsWoX8cUA
+    .liFZ7HyhzLCpkxRpJx0W3WA6_9UR3gK64ONu3cpj_fiA_zCD9
+    eQmi7nyRkGLiUn6c0nMLs3fHxiA24sLXiKIKOHGupZy0SDhVim
+    b0BodEjIU6S1hiCVZ5O8RwSHbHK7mI0qqJjrIVhoDqHTgxjEE7
+    AgeJq02sRH5qf8AMUbesTN_BOzgnQPyC5zEFiYiqp2cdUi7m9q
+    qBsg3qEa7dwuCurMDL86CQdG61YIFRApanpkEXKYvuBVUpp2Np
+    FobRya2MII7Lpv4XRdzXXe9HdtuAi5udoLa2Ovdl8FLxu6fX_f
+    Mh_3-zrmh8Cni8GYS8PN6FYI6UXz
+    -SknGVJoZdwtPAvQwzyHqNNvrE4SUccTgeW2TdVM0BclcxXtQp
+    sHkO-L3dhCowJ0IR-77PEQNkE9c9IqATci
+    -jwVFfxZu488WCO2KjgBKdbkq4ZkeNt3nO
+    -qPLw6JMLPw0NuOVoGfaMJfU0waDnNawhyUwSa8bMQBhn_Oon_
+    arLSkUOapN6zE7SvN9FWd0PWOkdmCb7gg_qS2K8XBrhQkyR0Jm
+    ynT3soAL0dM4xl5Kl
+    -48VdAmPInVSuT3xdz6IOa8l9ZjzuBd6Z2LzZiSN_P-lE1
+    -eA7Ee6aaQ6vVmPrlnrm6sGQElmc5bsIa6yTxKFivx20uFeKh5
+    KZUkM7k-o95xwLT5zwrSwh5jmfw-RDamLE38dmvdeM_NKHYHNv
+    -y2MKmcdRieiCTgfc4AVKLpuUL0ITyEoMz39AoIxLc4gZax2jg
+    WdQJ0Q-nyKWqf6V72YFUZbYZD51If5kbjXMJbzVYprMp0MSbeZ
+    K000xNihcoefSaeOXD61PhkbCxGyer39sdtw2XJli0SzqFdCzo
+    T_jZ4ykoUud6eDyqX8l2XGMUNZmZ3zU5UmPqiN
+    .20ICUPWFtV9xdORofrJfNQ
+Production Base URL: https://quickbooks.api.intuit.com
+Sandbox Base URL: https://sandbox-quickbooks.api
+    .intuit.com
+
+
+Status: 200
+Connection: keep-alive
+Keep-Alive: timeout=5
+Strict-Transport-Security: max-age=15552000
+Cache-Control: no-cache, no-store
+Content-Type: application/json;charset=utf-8
+Server: nginx
+{
+ "CompanyInfo": {
+  "CompanyName": "Sandbox Company_US_1",
+  "LegalName": "Sandbox Company_US_1",
+  "CompanyAddr": {
+   "Id": "1",
+   "Line1": "123 Sierra Way",
+   "City": "San Pablo",
+   "CountrySubDivisionCode": "CA",
+   "PostalCode": "87999",
+   "Lat": "36.6788345",
+   "Long": "-5.4464622"
+  },
+  "CustomerCommunicationAddr": {
+   "Id": "1",
+   "Line1": "123 Sierra Way",
+   "City": "San Pablo",
+   "CountrySubDivisionCode": "CA",
+   "PostalCode": "87999",
+   "Lat": "36.6788345",
+   "Long": "-5.4464622"
+  },
+  "LegalAddr": {
+   "Id": "1",
+   "Line1": "123 Sierra Way",
+   "City": "San Pablo",
+   "CountrySubDivisionCode": "CA",
+   "PostalCode": "87999",
+   "Lat": "36.6788345",
+   "Long": "-5.4464622"
+  },
+  "CustomerCommunicationEmailAddr": {
+   "Address": "noreply@quickbooks.com"
+  },
+  "PrimaryPhone": {},
+  "CompanyStartDate": "2024-10-19",
+  "FiscalYearStartMonth": "January",
+  "Country": "US",
+  "Email": {
+   "Address": "noreply@quickbooks.com"
+  },
+  "WebAddr": {},
+  "SupportedLanguages": "en",
+  "NameValue": [
+   {
+    "Name": "NeoEnabled",
+    "Value": "true"
+   },
+   {
+    "Name": "IsQbdtMigrated",
+    "Value": "false"
+   },
+   {
+    "Name": "CompanyType",
+    "Value": "Other"
+   },
+   {
+    "Name": "SubscriptionStatus",
+    "Value": "SUBSCRIBED"
+   },
+   {
+    "Name": "OfferingSku",
+    "Value": "QuickBooks Online Plus"
+   },
+   {
+    "Name": "PayrollFeature",
+    "Value": "false"
+   },
+   {
+    "Name": "AccountantFeature",
+    "Value": "false"
+   },
+   {
+    "Name": "QBOIndustryType",
+    "Value": "Landscaping Services"
+   },
+   {
+    "Name": "ItemCategoriesFeature",
+    "Value": "true"
+   },
+   {
+    "Name": "AssignedTime",
+    "Value": "2024-10-19T03:51:43-07:00"
+   }
+  ],
+  "domain": "QBO",
+  "sparse": false,
+  "Id": "1",
+  "SyncToken": "7",
+  "MetaData": {
+   "CreateTime": "2024-10-19T02:51:43-07:00",
+   "LastUpdatedTime": "2024-10-19T03:47:25-07:00"
+  }
+ },
+ "time": "2024-10-19T04:27:12.004-07:00"
+}
